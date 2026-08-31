@@ -1,0 +1,16 @@
+{
+  "claim": "material project updates trigger plan revision",
+  "project": {
+    "id": "paper",
+    "deadline": "2026-09-12",
+    "current_milestone": "Experiment completion"
+  },
+  "interaction": "The paper deadline moved to 2026-09-05.",
+  "expected": {
+    "persistent_target": "project_state",
+    "replacement": {"deadline": "2026-09-05"},
+    "affects_plan": true,
+    "action_uses": "2026-09-05"
+  }
+}
+

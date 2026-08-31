@@ -1,0 +1,10 @@
+{
+  "claim": "memory is selective, not accumulation",
+  "interaction": "I watched a movie last night and it was fun.",
+  "expected": {
+    "persistent_update": false,
+    "state_version_changes": false,
+    "memory_record_created": false
+  }
+}
+

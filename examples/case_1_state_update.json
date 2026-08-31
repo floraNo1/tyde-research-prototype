@@ -1,0 +1,11 @@
+{
+  "claim": "current state controls downstream action",
+  "initial_state": {"location": "Guangzhou"},
+  "interaction": "I am in Hong Kong instead of Guangzhou today.",
+  "expected": {
+    "persistent_target": "current_state",
+    "replacement": {"location": "Hong Kong"},
+    "action_uses": "Hong Kong",
+    "action_does_not_use": "Guangzhou"
+  }
+}
