@@ -16,6 +16,8 @@ commercial prompt, API key, or user data. The production application remains out
 > Status: transparent reference implementation and synthetic diagnostic set. It is not a claim of
 > state-of-the-art language understanding or user benefit.
 
+![TYDE selective state-to-action architecture](figures/architecture.svg)
+
 ## Run in ten minutes
 
 The reference implementation uses only the Python 3.11+ standard library. Run the following commands from the repository root:
@@ -64,8 +66,6 @@ The working hypothesis is:
 > between routing and planning, reduces false writes and makes state-to-action consistency testable.
 
 ## Architecture
-
-![TYDE selective state-to-action architecture](figures/architecture.svg)
 
 ```text
 New interaction
@@ -300,4 +300,5 @@ knowledge update, and abstention abilities emphasized by LongMemEval.
 - Park et al. [Generative Agents](https://arxiv.org/abs/2304.03442), 2023.
 - Packer et al. [MemGPT](https://arxiv.org/abs/2310.08560), 2023.
 - Wu et al. [LongMemEval](https://arxiv.org/abs/2410.10813), 2024.
+
 
